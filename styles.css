@@ -138,8 +138,10 @@ button:hover {
     margin-bottom:50px;    
     border-radius: 10px;       
     /* box-sizing: border-box; */
-    padding: 30px 30px; 
-    text-align: center;    
+    padding: 5px 5px; 
+    /* text-align: center;     */
+    /* justify-content: space-between; */
+    box-sizing: border-box;
     
 }
 .footer {
@@ -159,4 +161,16 @@ button:hover {
 .information-section > h3 {
     justify-content: center;
     text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2877e6;
+    width: 1000px;
+    height: auto;
+    margin: 120px;
+    border-radius: 10px;
+    align-items: center;
+
 }
